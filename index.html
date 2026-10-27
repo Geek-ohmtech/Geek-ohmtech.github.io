@@ -1,30 +1,78 @@
 <!doctype html>
 <html lang="ko">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PASSLOG</title>
-<style>
-  :root { --bg:#faf8f3; --fg:#1f2328; --muted:#5b636b; --accent:#2f5d50; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#16181b; --fg:#e8e6e1; --muted:#a3a9b0; --accent:#8fc3b2; } }
-  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.7 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
-  main { max-width:640px; margin:0 auto; padding:64px 16px; }
-  h1 { font-size:2.2rem; letter-spacing:.08em; margin:0 0 8px; }
-  p { margin:0 0 12px; }
-  .muted { color:var(--muted); }
-  a { color:var(--accent); }
-  ul { padding-left:1.2em; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17352f">
+  <title>PASSLOG 패스로그 — 여행을 한 권의 여권처럼</title>
+  <meta name="description" content="사진·스티커·손글씨로 꾸미는 나만의 여행 책. 여행 준비부터 돌아온 뒤의 기록까지, PASSLOG에서 여권처럼 간직하세요. 아이폰·아이패드에서 무료 다운로드.">
+  <meta name="apple-itunes-app" content="app-id=6824751235">
+  <link rel="canonical" href="https://geek-ohmtech.github.io/">
+  <link rel="icon" type="image/png" href="assets/passlog-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="PASSLOG — 여행을 한 권의 여권처럼">
+  <meta property="og:description" content="사진·스티커·손글씨로 꾸미는 나만의 여행 책. 여행 준비부터 추억까지, 회원가입 없이 시작하세요.">
+  <meta property="og:url" content="https://geek-ohmtech.github.io/">
+  <meta property="og:image" content="https://geek-ohmtech.github.io/assets/passlog-share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PASSLOG 여행 기록 앱의 여권 표지와 여행 페이지">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PASSLOG — 여행을 한 권의 여권처럼">
+  <meta name="twitter:description" content="사진·스티커·손글씨로 꾸미는 여행 기록 앱. 아이폰·아이패드에서 만나보세요.">
+  <meta name="twitter:image" content="https://geek-ohmtech.github.io/assets/passlog-share.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"PASSLOG","alternateName":"패스로그","description":"여행 준비부터 사진·스티커·손글씨로 꾸미는 여행 기록까지 한 권의 여권처럼 간직하는 앱","applicationCategory":"TravelApplication","operatingSystem":"iOS 26.0 or later","inLanguage":["ko","en","ja"],"url":"https://geek-ohmtech.github.io/","downloadUrl":"https://apps.apple.com/kr/app/passlog/id6824751235","image":"https://geek-ohmtech.github.io/assets/passlog-share.jpg","offers":{"@type":"Offer","price":"0","priceCurrency":"KRW","url":"https://apps.apple.com/kr/app/passlog/id6824751235"}}
+  </script>
 </head>
 <body>
-<main>
-<h1>PASSLOG</h1>
-<p>여행을 여권 모양 책에 기록하는 iOS 앱.</p>
-<p class="muted">A travel journal for iPhone and iPad, kept like a passport.</p>
-<ul>
-<li><a href="privacy.html">개인정보처리방침 · Privacy Policy</a></li>
-<li><a href="https://github.com/Geek-ohmtech/passlog-data/issues">문의 · Support</a></li>
-</ul>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="site-header wrap">
+  <a class="brand" href="/" aria-label="PASSLOG 홈"><img src="assets/passlog-icon.png" width="38" height="38" alt=""><span>PASSLOG</span></a>
+  <nav aria-label="메인 메뉴"><a href="#journal">여행 책</a><a href="#questions">궁금한 점</a><a class="nav-download" href="https://apps.apple.com/kr/app/passlog/id6824751235">다운로드 <span aria-hidden="true">↗</span></a></nav>
+</header>
+<main id="main">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow">A JOURNEY, KEPT.</p>
+      <h1 id="hero-title">여행을 한 권의<br><em>여권처럼.</em></h1>
+      <p class="intro">떠나기 전의 설렘부터 돌아온 뒤의 추억까지.<br>사진과 스티커, 손글씨로<br class="mobile-break"> 나만의 여행 책을 만드세요.</p>
+      <a class="button" href="https://apps.apple.com/kr/app/passlog/id6824751235"><span class="button-small">무료 다운로드</span><span>App Store에서 만나보기 <span aria-hidden="true">↗</span></span></a>
+      <p class="device-note">iPhone · iPad · iPhone Duo <span>회원가입 없이 시작</span></p>
+    </div>
+    <div class="hero-art" aria-label="실제 앱의 여권 표지와 여행 페이지">
+      <div class="art-label">MY TRAVEL JOURNAL <span>01 — 02</span></div>
+      <img class="hero-passport" src="assets/passport.webp" width="420" height="611" alt="대한민국 여권 모양의 PASSLOG 표지" fetchpriority="high">
+      <img class="hero-page" src="assets/journal.webp" width="480" height="1044" alt="리스본 사진과 메모를 담은 여행 페이지" fetchpriority="high">
+      <span class="art-caption">소중한 순간이 쌓이는, 나만의 여권.</span>
+    </div>
+  </section>
+  <div class="feature-strip"><div class="wrap"><span>사진으로 남기고</span><span>취향으로 꾸미고</span><span>한 권으로 간직하고</span></div></div>
+  <section class="journal wrap section" id="journal" aria-labelledby="journal-title">
+    <div class="section-heading"><p class="eyebrow">YOUR STORY, YOUR PAGES</p><h2 id="journal-title">한 장의 사진이<br>한 권의 이야기가 되도록.</h2><p>사진첩 속 여행에, 그날의 이야기를 더해보세요.</p></div>
+    <div class="journal-grid">
+      <figure class="page-display"><img src="assets/kyoto.webp" width="480" height="1044" alt="교토의 풍경과 식사 사진을 정리한 여행 기록 페이지" loading="lazy"><figcaption>사진 · 메모 · 여행의 순간</figcaption></figure>
+      <div class="feature-copy"><span class="number">01 / RECORD</span><h3>다녀온 곳을,<br>내 이야기로.</h3><p>사진의 날짜와 장소로 지난 여행을 찾고,<br>도착한 도시에는 방문 도장을 남겨보세요.</p><span class="number">02 / PERSONALIZE</span><h3>스티커 하나에도<br>나의 취향을.</h3><p>템플릿을 고르고 사진을 넣고.<br>스티커와 손글씨로 나만의 페이지를 완성하세요.<br>아이패드에서는 Apple Pencil도 사용할 수 있어요.</p></div>
+    </div>
+  </section>
+  <section class="duo section" aria-labelledby="duo-title"><div class="wrap">
+    <div class="section-heading"><p class="eyebrow">A PASSPORT THAT OPENS TO YOUR WORLD</p><h2 id="duo-title">접으면 여권.<br>펼치면, 두 쪽의 여행.</h2><p>아이폰에서는 한 쪽씩, 아이패드와 듀오에서는 두 쪽 펼침면으로.<br>내 기기에 맞는 모습으로 여행을 간직하세요.</p></div>
+    <div class="duo-frame"><img src="assets/duo.webp" width="1100" height="774" alt="아이폰 듀오에서 두 쪽으로 펼쳐진 리스본 여행 책" loading="lazy"></div>
+  </div></section>
+  <section class="planning wrap section" aria-labelledby="planning-title">
+    <div class="feature-copy"><p class="eyebrow">BEFORE YOU GO</p><h2 id="planning-title">기록의 시작은,<br>떠나기 전부터.</h2><p>여행 준비물과 일정을 비자 페이지처럼 정리하세요.<br>여행지 정보와 추천도 함께 살펴볼 수 있어요.</p><ul class="plain-list"><li>준비물 체크리스트와 준비율</li><li>일정 · 날씨 · 시차 · 환율</li><li>기간과 취향에 맞춘 여행지 추천</li></ul></div>
+    <div class="planning-shot"><img src="assets/planning.webp" width="420" height="913" alt="파리·런던 여행 계획과 준비물 확인 화면" loading="lazy"></div>
+  </section>
+  <section class="faq wrap section" id="questions" aria-labelledby="faq-title"><div class="section-heading"><p class="eyebrow">A FEW THINGS TO KNOW</p><h2 id="faq-title">시작하기 전에.</h2></div>
+    <details><summary>무료로 사용할 수 있나요?</summary><p>무료로 다운로드할 수 있습니다. 일부 스티커 팩 열기, 워터마크 제거 등은 원할 때 보는 보상형 광고로 이용할 수 있습니다. 자세한 이용 조건은 앱에서 확인해 주세요.</p></details>
+    <details><summary>회원가입이 필요한가요?</summary><p>회원가입 없이 시작할 수 있습니다. 여행 기록은 기기와 내 iCloud에 저장됩니다. 광고 서비스의 데이터 처리에 관한 내용은 <a href="privacy.html">개인정보처리방침</a>에서 확인할 수 있습니다.</p></details>
+    <details><summary>어떤 기기에서 사용할 수 있나요?</summary><p>아이폰·아이패드·아이폰 듀오에서 사용할 수 있습니다. 현재 App Store에는 iOS 26.0 이상이 필요한 것으로 안내되어 있습니다. 다운로드 전에 내 기기의 호환 정보를 확인해 주세요.</p></details>
+    <details><summary>어떤 언어를 지원하나요?</summary><p>한국어, 영어, 일본어를 지원합니다.</p></details>
+  </section>
+  <section class="closing"><div class="wrap"><p class="eyebrow">PASSLOG</p><h2>다음 여행도,<br>오래 간직할 한 권으로.</h2><a class="button light" href="https://apps.apple.com/kr/app/passlog/id6824751235">App Store에서 무료 다운로드 <span aria-hidden="true">↗</span></a></div></section>
 </main>
+<footer class="site-footer wrap"><a class="wordmark" href="/">PASSLOG</a><div><a href="privacy.html">개인정보처리방침</a><a href="https://github.com/Geek-ohmtech/passlog-data/issues">문의 · 피드백</a><a href="https://apps.apple.com/kr/app/passlog/id6824751235">App Store</a></div><p>A travel journal for iPhone and iPad, kept like a passport.</p></footer>
 </body>
 </html>
